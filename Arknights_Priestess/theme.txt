@@ -1,0 +1,35 @@
+# Arknights_Priestess
+
+title-text: ""
+desktop-image: "background.png"
+
+# Terminal for Console and Options
+terminal-left: "0"
+terminal-top: "0"
+terminal-border: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+
++ boot_menu {
+  left = 4%
+  top = 45%
+  width = 21%
+  height = 50%
+  item_color = "#cccccc"
+  selected_item_color = "#ffffff"
+  item_icon_space = 18
+  item_height = 30
+  item_padding = 0
+  item_spacing = 45
+  item_pixmap_style = "item_*.png"
+	selected_item_pixmap_style = "selected_item_*.png"
+}
+
++ label {
+  left = 5%
+  top = 90%
+  align = "center"
+  id = "__timeout__"
+  text = "当前已选中系统将会在 %d 秒后启动"
+  color = "#000000"
+}
